@@ -23,7 +23,7 @@ jobs:
             git pull origin main
             
             # Build the new Docker image
-            DOCKER_BUILDKIT=1 docker build --no-cache -t wrapto-app .
+            docker build -t wrapto-app .
             
             # Stop and remove the old container
             docker stop wrapto-container || true
