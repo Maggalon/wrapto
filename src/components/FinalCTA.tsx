@@ -18,10 +18,15 @@ export function FinalCTA() {
           Оставьте заявку за 2 минуты. Мы свяжемся, подберём бренд и рассчитаем ваш доход.
         </p>
 
-        <button className="mt-8 md:mt-10 flex items-center justify-center gap-2 bg-accent-gold text-brand-dark px-8 py-4 rounded-xl font-body font-semibold text-[17px] md:text-[18px] leading-none tracking-[0.02em] w-full sm:w-auto min-w-[200px] shadow-[0_4px_20px_rgba(255,158,0,0.25)] hover:bg-accent-gold-hover hover:-translate-y-[2px] hover:shadow-[0_8px_32px_rgba(255,158,0,0.35)] active:translate-y-0 active:shadow-[0_2px_8px_rgba(255,158,0,0.2)] transition-all duration-200 group focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-[#007C66] focus-visible:ring-accent-gold">
+        <a 
+          href="https://t.me/wrapto_bot"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-8 md:mt-10 flex items-center justify-center gap-2 bg-accent-gold text-brand-dark px-8 py-4 rounded-xl font-body font-semibold text-[17px] md:text-[18px] leading-none tracking-[0.02em] w-full sm:w-auto min-w-[200px] shadow-[0_4px_20px_rgba(255,158,0,0.25)] hover:bg-accent-gold-hover hover:-translate-y-[2px] hover:shadow-[0_8px_32px_rgba(255,158,0,0.35)] active:translate-y-0 active:shadow-[0_2px_8px_rgba(255,158,0,0.2)] transition-all duration-200 group focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-[#007C66] focus-visible:ring-accent-gold"
+        >
           <Zap className="w-5 h-5 text-brand-dark/80 group-hover:text-brand-dark transition-colors" />
           Оставить заявку
-        </button>
+        </a>
       </div>
     </section>
   );

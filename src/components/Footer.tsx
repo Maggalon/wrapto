@@ -24,7 +24,7 @@ export function Footer() {
 
         {/* Social Icons Placeholder */}
         {/* <div className="flex items-center gap-4 text-text-muted">
-          <a href="#" aria-label="Telegram" className="hover:text-text-primary transition-colors focus:outline-none focus-visible:text-accent-gold">
+          <a href="https://t.me/wrapto_bot" target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="hover:text-text-primary transition-colors focus:outline-none focus-visible:text-accent-gold">
             <Send className="w-5 h-5 -rotate-45" aria-hidden="true" />
           </a>
           <a href="#" aria-label="VK" className="hover:text-text-primary transition-colors focus:outline-none focus-visible:text-accent-gold">

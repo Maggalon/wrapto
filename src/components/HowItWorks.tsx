@@ -6,7 +6,7 @@ export function HowItWorks() {
       num: "01",
       icon: <ClipboardEdit className="w-6 h-6 text-accent-gold" />,
       title: "Оставьте заявку и получите предложение от бренда",
-      description: "Заполните короткую форму: марка и год авто, район проживания, средний пробег за месяц. Мы подберём рекламодателя, которому подходит именно ваш маршрут по Владивостоку."
+      description: "Пройдите регистрацию в Телеграм-боте: марка и год авто, район проживания, средний пробег. Мы подберём рекламодателя, которому подходит именно ваш маршрут по Владивостоку."
     },
     {
       num: "02",
@@ -32,9 +32,9 @@ export function HowItWorks() {
         <div className="relative flex flex-col md:flex-row gap-5 md:gap-7 items-stretch">
           {/* Connector Line (Desktop) */}
           <div className="hidden md:block absolute top-[24px] left-[16%] right-[16%] h-[2px] border-t-2 border-dashed border-brand-steel z-0" aria-hidden="true" />
-          
+
           {steps.map((step, idx) => (
-            <div 
+            <div
               key={step.num}
               className="relative z-10 flex-1 bg-brand-dark border border-brand-steel rounded-2xl p-7 flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.1)] hover:border-accent-gold/30 group"
             >
@@ -46,11 +46,11 @@ export function HowItWorks() {
                   {step.num}
                 </span>
               </div>
-              
+
               <h3 className="font-display font-bold text-[20px] md:text-[24px] leading-[1.3] text-text-primary mb-2 transition-colors">
                 {step.title}
               </h3>
-              
+
               <p className="font-body text-[15px] md:text-[16px] leading-[1.65] text-text-secondary mt-auto">
                 {step.description}
               </p>

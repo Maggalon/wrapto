@@ -74,9 +74,14 @@ export function EarningOptions() {
           Точный размер зависит от марки авто, вашего пробега и района. После заявки мы рассчитаем сумму лично для вас.
         </p>
 
-        <button className="mt-8 font-body font-semibold text-[15px] md:text-[16px] tracking-[0.02em] text-accent-gold border-2 border-accent-gold rounded-xl px-7 py-3.5 hover:bg-accent-gold/10 hover:border-accent-gold-hover active:bg-accent-gold/[0.14] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-brand-dark focus-visible:ring-accent-gold">
+        <a 
+          href="https://t.me/wrapto_bot"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-8 font-body font-semibold text-[15px] md:text-[16px] tracking-[0.02em] text-accent-gold border-2 border-accent-gold rounded-xl px-7 py-3.5 hover:bg-accent-gold/10 hover:border-accent-gold-hover active:bg-accent-gold/[0.14] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-brand-dark focus-visible:ring-accent-gold text-center"
+        >
           Рассчитать мой доход
-        </button>
+        </a>
       </div>
     </section>
   );
