@@ -2,18 +2,18 @@
 
 :root {
   /* ── Colors ── */
-  --brand-dark: #0D0F14;
-  --brand-charcoal: #161922;
-  --brand-slate: #1E2231;
-  --brand-steel: #2A3040;
+  --brand-dark: #FFFFFF;
+  --brand-charcoal: #F8F9FA;
+  --brand-slate: #FFFFFF;
+  --brand-steel: #E5E7EB;
 
-  --text-primary: #F4F5F7;
-  --text-secondary: #9BA1B0;
-  --text-muted: #5C6478;
+  --text-primary: #2D2D2D;
+  --text-secondary: #666666;
+  --text-muted: #9BA1B0;
 
-  --accent-gold: #F5A623;
-  --accent-gold-hover: #E6960F;
-  --accent-gold-glow: rgba(245, 166, 35, 0.20);
+  --accent-gold: #FF9E00;
+  --accent-gold-hover: #E58E00;
+  --accent-gold-glow: rgba(255, 158, 0, 0.20);
   --accent-amber-light: #FFF0D4;
 
   --semantic-danger: #E54D4D;
@@ -24,22 +24,22 @@
   /* Gradients */
   --gradient-hero: linear-gradient(
     170deg,
-    #0D0F14 0%,
-    #131720 40%,
-    #1A1520 70%,
-    #0D0F14 100%
+    #FFFFFF 0%,
+    #F8F9FA 40%,
+    #EAF0ED 70%,
+    #FFFFFF 100%
   );
   --gradient-cta: linear-gradient(
     135deg,
-    #161922 0%,
-    #1C1A28 50%,
-    #161922 100%
+    #007C66 0%,
+    #005F4E 50%,
+    #007C66 100%
   );
   --gradient-gold-shimmer: linear-gradient(
     90deg,
-    #F5A623 0%,
-    #FFD580 50%,
-    #F5A623 100%
+    #FF9E00 0%,
+    #FFC266 50%,
+    #FF9E00 100%
   );
 
   /* ── Transitions ── */

@@ -23,7 +23,7 @@ export function HowItWorks() {
   ];
 
   return (
-    <section className="py-16 sm:py-20 md:py-24 px-4 bg-brand-dark overflow-hidden">
+    <section className="py-16 sm:py-20 md:py-24 px-4 bg-brand-charcoal overflow-hidden">
       <div className="max-w-[1120px] mx-auto w-full">
         <h2 className="font-display font-bold text-[24px] sm:text-[30px] md:text-[36px] leading-[1.2] tracking-[-0.01em] text-text-primary text-center mb-8 sm:mb-10 md:mb-12">
           Три шага — и ваша машина начинает зарабатывать
@@ -36,7 +36,7 @@ export function HowItWorks() {
           {steps.map((step, idx) => (
             <div 
               key={step.num}
-              className="relative z-10 flex-1 bg-brand-charcoal border border-brand-steel rounded-2xl p-7 flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.3)] hover:border-accent-gold/30 group"
+              className="relative z-10 flex-1 bg-brand-dark border border-brand-steel rounded-2xl p-7 flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.1)] hover:border-accent-gold/30 group"
             >
               <div className="flex justify-between items-start mb-4">
                 <div className="w-12 h-12 rounded-full bg-accent-gold/10 flex items-center justify-center shrink-0">

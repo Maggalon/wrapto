@@ -33,9 +33,9 @@ export function EarningOptions() {
           {tiers.sort((a,b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0)).map((tier) => (
             <div 
               key={tier.name}
-              className={`relative flex-1 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.3)] flex flex-col
+              className={`relative flex-1 rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.1)] flex flex-col
                 ${tier.featured 
-                  ? "bg-brand-slate border-2 border-accent-gold p-8 md:scale-[1.03] hover:shadow-[0_0_40px_rgba(245,166,35,0.12)] z-10 order-first md:order-none" 
+                  ? "bg-brand-slate border-2 border-accent-gold p-8 md:scale-[1.03] hover:shadow-[0_0_40px_rgba(255,158,0,0.15)] z-10 order-first md:order-none" 
                   : "bg-brand-charcoal border border-brand-steel p-7 hover:border-accent-gold/30 order-last md:order-none"
                 }
               `}

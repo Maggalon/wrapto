@@ -22,7 +22,7 @@ export function FAQ() {
   ];
 
   return (
-    <section className="py-16 sm:py-20 md:py-24 px-4 bg-brand-dark">
+    <section className="py-16 sm:py-20 md:py-24 px-4 bg-brand-charcoal">
       <div className="max-w-[680px] mx-auto w-full">
         <h2 className="font-display font-bold text-[24px] sm:text-[30px] md:text-[36px] leading-[1.2] tracking-[-0.01em] text-text-primary text-center mb-8 sm:mb-10 md:mb-12">
           Ответы на три главных вопроса
@@ -36,7 +36,7 @@ export function FAQ() {
               <div 
                 key={idx}
                 className={`border border-brand-steel rounded-xl transition-colors duration-300 overflow-hidden ${
-                  isOpen ? "bg-brand-slate" : "bg-brand-charcoal"
+                  isOpen ? "bg-brand-dark shadow-sm" : "bg-brand-dark"
                 }`}
               >
                 <button

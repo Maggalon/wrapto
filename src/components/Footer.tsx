@@ -7,9 +7,9 @@ export function Footer() {
   return (
     <footer className="bg-brand-dark border-t border-brand-steel py-8 px-4">
       <div className="max-w-[1120px] mx-auto w-full flex flex-col md:flex-row items-center justify-between gap-6 md:gap-4">
-        
+
         <div className="font-body text-[13px] text-text-muted font-medium text-center md:text-left tracking-[0.02em]">
-          Wrapto · Владивосток · {Math.max(currentYear, 2026)}
+          Wrapto · {Math.max(currentYear, 2026)}
         </div>
 
         {/* Legal Links placeholder */}
@@ -23,7 +23,7 @@ export function Footer() {
         </div>
 
         {/* Social Icons Placeholder */}
-        <div className="flex items-center gap-4 text-text-muted">
+        {/* <div className="flex items-center gap-4 text-text-muted">
           <a href="#" aria-label="Telegram" className="hover:text-text-primary transition-colors focus:outline-none focus-visible:text-accent-gold">
             <Send className="w-5 h-5 -rotate-45" aria-hidden="true" />
           </a>
@@ -33,7 +33,7 @@ export function Footer() {
           <a href="#" aria-label="WhatsApp" className="hover:text-text-primary transition-colors focus:outline-none focus-visible:text-accent-gold">
             <MessagesSquare className="w-5 h-5" aria-hidden="true" />
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
